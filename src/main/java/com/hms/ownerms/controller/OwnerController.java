@@ -14,5 +14,9 @@ public class OwnerController {
 	public String getHello(){
 		return "Hello World1";
 	}
+	@GetMapping("/ownerhello1")
+	public String getHello1(){
+		return "Hello World11";
+	}
 	
 }
